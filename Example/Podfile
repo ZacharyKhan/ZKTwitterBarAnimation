@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZKTwitterBarAnimation_Example' do
+  pod 'ZKTwitterBarAnimation', :path => '../'
+
+  target 'ZKTwitterBarAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
