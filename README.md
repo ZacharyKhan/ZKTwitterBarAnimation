@@ -8,20 +8,22 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 ZKTwitterBarAnimation is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```swift
 pod "ZKTwitterBarAnimation"
 ```
 
 ## Author
 
-Zach, zachary.khan3@gmail.com
+You can reach me on Twitter [@ZacharyKhan3](http://www.twitter.com/zacharykhan3.com).
+
+## Contribute
+
+Simply fork the repo and submit a pull request. If you have an issue, request, etc. please submit an `issue`.
 
 ## License
 
