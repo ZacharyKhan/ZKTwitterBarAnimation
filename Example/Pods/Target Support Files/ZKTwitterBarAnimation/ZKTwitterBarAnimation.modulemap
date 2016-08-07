@@ -1,0 +1,6 @@
+framework module ZKTwitterBarAnimation {
+  umbrella header "ZKTwitterBarAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

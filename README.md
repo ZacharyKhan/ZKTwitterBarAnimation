@@ -1,6 +1,5 @@
 # ZKTwitterBarAnimation
 
-[![CI Status](http://img.shields.io/travis/Zach/ZKTwitterBarAnimation.svg?style=flat)](https://travis-ci.org/Zach/ZKTwitterBarAnimation)
 [![Version](https://img.shields.io/cocoapods/v/ZKTwitterBarAnimation.svg?style=flat)](http://cocoapods.org/pods/ZKTwitterBarAnimation)
 [![License](https://img.shields.io/cocoapods/l/ZKTwitterBarAnimation.svg?style=flat)](http://cocoapods.org/pods/ZKTwitterBarAnimation)
 [![Platform](https://img.shields.io/cocoapods/p/ZKTwitterBarAnimation.svg?style=flat)](http://cocoapods.org/pods/ZKTwitterBarAnimation)

@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CABBE8E25DDB9DD60AD42AAF2297F17 /* Pods-ZKTwitterBarAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E90099E46616E189D11A17802DB884 /* Pods-ZKTwitterBarAnimation_Tests-dummy.m */; };
+		0D9CB265B5843AB3FC5F66EEBC7BD51C /* ZKTwitterBarAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C01A0E3AEB1DB4E3691161F4EEF384FC /* ZKTwitterBarAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		286E8953A86A586A08C4472B681CCAFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4E2B60FAC0056FE70C5BEF6068066470 /* ZKTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FD271834C7C29E201BA7871629A4C8 /* ZKTabBarController.swift */; };
+		5097BF177B73FD4B4722DAE2AD18C709 /* Pods-ZKTwitterBarAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC3F940423676BE2AA22311D4732DA0 /* Pods-ZKTwitterBarAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DFE248FBE7B297929902FBF5163BD8C /* ZKTwitterBarAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D40C2A4A0A1980657B71DFAB360D03E /* ZKTwitterBarAnimation-dummy.m */; };
+		79FCAE2A96DCE4C26B2F6B00BEA9A9F7 /* Pods-ZKTwitterBarAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD633EB1BA8FB3A70E71CE0ED2A0F27 /* Pods-ZKTwitterBarAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3B39F4913CEDBE3928170B71C84B45 /* ZKAlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B75A5DD42453CB54D8012B910EE318 /* ZKAlertType.swift */; };
+		A6DC160353874AB7ECC2C8D4BFF94C65 /* Pods-ZKTwitterBarAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5A41E855EAD63FDFE9885F36528B5D /* Pods-ZKTwitterBarAnimation_Example-dummy.m */; };
+		AD452EF28DC85B2E93555148BBF6739F /* ZKAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A65919E5178753D8A896ED3E72FE7 /* ZKAlertView.swift */; };
+		FC1AA44EF9CB11AD460B6437FD19BD25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FE4130F6D6FEDE2808E77E03597B49BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E790E47B01241C0CBD15C11BA7018914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DDE405F2EF684CDFDAEFB9F9C009C4D;
+			remoteInfo = ZKTwitterBarAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012D4E2E4B8C13CBE3DBA13ACCC72C0E /* Pods-ZKTwitterBarAnimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKTwitterBarAnimation_Tests-resources.sh"; sourceTree = "<group>"; };
+		0EEC8511B8747AD6457A357425B28573 /* Pods-ZKTwitterBarAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKTwitterBarAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FD633EB1BA8FB3A70E71CE0ED2A0F27 /* Pods-ZKTwitterBarAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKTwitterBarAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		15F067D066288B340920325FE3160206 /* Pods_ZKTwitterBarAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKTwitterBarAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		215A2239D1888060B66476C443329992 /* Pods-ZKTwitterBarAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKTwitterBarAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		225C3F3EF85A00E37EEAD2463BBF9313 /* Pods-ZKTwitterBarAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZKTwitterBarAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2590C756BE647D06A164E6AADB1B9814 /* Pods-ZKTwitterBarAnimation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKTwitterBarAnimation_Example-resources.sh"; sourceTree = "<group>"; };
+		2FBAD033B7CABF3159AD08758A115E06 /* Pods-ZKTwitterBarAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKTwitterBarAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		322A65919E5178753D8A896ED3E72FE7 /* ZKAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZKAlertView.swift; sourceTree = "<group>"; };
+		34E90099E46616E189D11A17802DB884 /* Pods-ZKTwitterBarAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZKTwitterBarAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
+		3FC3F940423676BE2AA22311D4732DA0 /* Pods-ZKTwitterBarAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKTwitterBarAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
+		45F5CA9783A91FE4834C30AA3135EF52 /* ZKTwitterBarAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKTwitterBarAnimation-prefix.pch"; sourceTree = "<group>"; };
+		46B75A5DD42453CB54D8012B910EE318 /* ZKAlertType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZKAlertType.swift; sourceTree = "<group>"; };
+		47FD271834C7C29E201BA7871629A4C8 /* ZKTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZKTabBarController.swift; sourceTree = "<group>"; };
+		4B8829586F4673283F7E6BB2D8D46468 /* Pods-ZKTwitterBarAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZKTwitterBarAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F5844EDC76367579BAA3B497AC68970 /* Pods-ZKTwitterBarAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKTwitterBarAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		57572F20402FA4517C24A2677CA9B077 /* Pods-ZKTwitterBarAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKTwitterBarAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7659413F2D9C19C6EDDC6E4C41C585 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CAE7597A4CA319F9CE5B10991A06677 /* Pods_ZKTwitterBarAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKTwitterBarAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7270B4D17DB4D8758FFBA694A6DC62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60DE8338DD5E5B5AB68AAA3995C7400C /* Pods-ZKTwitterBarAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZKTwitterBarAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		64E80A7DC60650729125AC479EEE7D19 /* Pods-ZKTwitterBarAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKTwitterBarAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7C9909D2FBC2BC025A77D994E61FCD23 /* ZKTwitterBarAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZKTwitterBarAnimation.modulemap; sourceTree = "<group>"; };
+		7D40C2A4A0A1980657B71DFAB360D03E /* ZKTwitterBarAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKTwitterBarAnimation-dummy.m"; sourceTree = "<group>"; };
+		847D5E44B5E34B49003A887B9C53579F /* Pods-ZKTwitterBarAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZKTwitterBarAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		88F12E0AEAB451D85F97DC09A95F1152 /* ZKTwitterBarAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZKTwitterBarAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CA632EFA79AACA5B4C534049805CF72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDA3FC8A1EDB0F43C002F79D2950A12 /* Pods-ZKTwitterBarAnimation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKTwitterBarAnimation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B8EC92AB9A81EB6B77410A911B5A71D5 /* ZKTwitterBarAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKTwitterBarAnimation.xcconfig; sourceTree = "<group>"; };
+		BC5A41E855EAD63FDFE9885F36528B5D /* Pods-ZKTwitterBarAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZKTwitterBarAnimation_Example-dummy.m"; sourceTree = "<group>"; };
+		BE67C09CA8251AA674B9F8135111A5B2 /* Pods-ZKTwitterBarAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKTwitterBarAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C01A0E3AEB1DB4E3691161F4EEF384FC /* ZKTwitterBarAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKTwitterBarAnimation-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08E3D09F9EB7261B94D8415BEDEC4743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286E8953A86A586A08C4472B681CCAFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3374ACE7910FC5F9F837E76555238027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4130F6D6FEDE2808E77E03597B49BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8046B321A2061978231A19C54BA5E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1AA44EF9CB11AD460B6437FD19BD25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A1F024096029FE71B6A64DD0605E0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				446EF08C51EDC04CEAD68FA886B70A16 /* Pods-ZKTwitterBarAnimation_Example */,
+				ED2A569EB844659897F74F364991610E /* Pods-ZKTwitterBarAnimation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1AA2A0F642C065927DE08CD2E2F95D59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E7270B4D17DB4D8758FFBA694A6DC62 /* Info.plist */,
+				7C9909D2FBC2BC025A77D994E61FCD23 /* ZKTwitterBarAnimation.modulemap */,
+				B8EC92AB9A81EB6B77410A911B5A71D5 /* ZKTwitterBarAnimation.xcconfig */,
+				7D40C2A4A0A1980657B71DFAB360D03E /* ZKTwitterBarAnimation-dummy.m */,
+				45F5CA9783A91FE4834C30AA3135EF52 /* ZKTwitterBarAnimation-prefix.pch */,
+				C01A0E3AEB1DB4E3691161F4EEF384FC /* ZKTwitterBarAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZKTwitterBarAnimation";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		446EF08C51EDC04CEAD68FA886B70A16 /* Pods-ZKTwitterBarAnimation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9CA632EFA79AACA5B4C534049805CF72 /* Info.plist */,
+				60DE8338DD5E5B5AB68AAA3995C7400C /* Pods-ZKTwitterBarAnimation_Example.modulemap */,
+				4B8829586F4673283F7E6BB2D8D46468 /* Pods-ZKTwitterBarAnimation_Example-acknowledgements.markdown */,
+				2FBAD033B7CABF3159AD08758A115E06 /* Pods-ZKTwitterBarAnimation_Example-acknowledgements.plist */,
+				BC5A41E855EAD63FDFE9885F36528B5D /* Pods-ZKTwitterBarAnimation_Example-dummy.m */,
+				4F5844EDC76367579BAA3B497AC68970 /* Pods-ZKTwitterBarAnimation_Example-frameworks.sh */,
+				2590C756BE647D06A164E6AADB1B9814 /* Pods-ZKTwitterBarAnimation_Example-resources.sh */,
+				3FC3F940423676BE2AA22311D4732DA0 /* Pods-ZKTwitterBarAnimation_Example-umbrella.h */,
+				57572F20402FA4517C24A2677CA9B077 /* Pods-ZKTwitterBarAnimation_Example.debug.xcconfig */,
+				64E80A7DC60650729125AC479EEE7D19 /* Pods-ZKTwitterBarAnimation_Example.release.xcconfig */,
+			);
+			name = "Pods-ZKTwitterBarAnimation_Example";
+			path = "Target Support Files/Pods-ZKTwitterBarAnimation_Example";
+			sourceTree = "<group>";
+		};
+		462E2237B3242421A36A016C85B29C45 /* ZKTwitterBarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C757334ACAB1094B408A95E16C6983FF /* Classes */,
+			);
+			path = ZKTwitterBarAnimation;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DC4B6D859B94F5F8A4624D2DCA25D5D5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				93BCAB0F38A0789B2A2CDC8C6F772FC1 /* Products */,
+				10A1F024096029FE71B6A64DD0605E0B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93BCAB0F38A0789B2A2CDC8C6F772FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15F067D066288B340920325FE3160206 /* Pods_ZKTwitterBarAnimation_Example.framework */,
+				5CAE7597A4CA319F9CE5B10991A06677 /* Pods_ZKTwitterBarAnimation_Tests.framework */,
+				88F12E0AEAB451D85F97DC09A95F1152 /* ZKTwitterBarAnimation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C757334ACAB1094B408A95E16C6983FF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				46B75A5DD42453CB54D8012B910EE318 /* ZKAlertType.swift */,
+				322A65919E5178753D8A896ED3E72FE7 /* ZKAlertView.swift */,
+				47FD271834C7C29E201BA7871629A4C8 /* ZKTabBarController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D49E1F306D71F374653D9BFB6C0360E7 /* ZKTwitterBarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1AA2A0F642C065927DE08CD2E2F95D59 /* Support Files */,
+				462E2237B3242421A36A016C85B29C45 /* ZKTwitterBarAnimation */,
+			);
+			name = ZKTwitterBarAnimation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DC4B6D859B94F5F8A4624D2DCA25D5D5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D49E1F306D71F374653D9BFB6C0360E7 /* ZKTwitterBarAnimation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ED2A569EB844659897F74F364991610E /* Pods-ZKTwitterBarAnimation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B7659413F2D9C19C6EDDC6E4C41C585 /* Info.plist */,
+				847D5E44B5E34B49003A887B9C53579F /* Pods-ZKTwitterBarAnimation_Tests.modulemap */,
+				225C3F3EF85A00E37EEAD2463BBF9313 /* Pods-ZKTwitterBarAnimation_Tests-acknowledgements.markdown */,
+				0EEC8511B8747AD6457A357425B28573 /* Pods-ZKTwitterBarAnimation_Tests-acknowledgements.plist */,
+				34E90099E46616E189D11A17802DB884 /* Pods-ZKTwitterBarAnimation_Tests-dummy.m */,
+				ABDA3FC8A1EDB0F43C002F79D2950A12 /* Pods-ZKTwitterBarAnimation_Tests-frameworks.sh */,
+				012D4E2E4B8C13CBE3DBA13ACCC72C0E /* Pods-ZKTwitterBarAnimation_Tests-resources.sh */,
+				0FD633EB1BA8FB3A70E71CE0ED2A0F27 /* Pods-ZKTwitterBarAnimation_Tests-umbrella.h */,
+				215A2239D1888060B66476C443329992 /* Pods-ZKTwitterBarAnimation_Tests.debug.xcconfig */,
+				BE67C09CA8251AA674B9F8135111A5B2 /* Pods-ZKTwitterBarAnimation_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZKTwitterBarAnimation_Tests";
+			path = "Target Support Files/Pods-ZKTwitterBarAnimation_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2418D6E6BE15A38DE880EB6E4E91E75F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5097BF177B73FD4B4722DAE2AD18C709 /* Pods-ZKTwitterBarAnimation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB220612AAC9591BC110D36D3E6748E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9CB265B5843AB3FC5F66EEBC7BD51C /* ZKTwitterBarAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B1F019746456F49EA8C5F0C758BD7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FCAE2A96DCE4C26B2F6B00BEA9A9F7 /* Pods-ZKTwitterBarAnimation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C02576E46FB2A774127F04A9B969D77 /* Pods-ZKTwitterBarAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807CFD8B10CB968AC0552EA3A52B74A1 /* Build configuration list for PBXNativeTarget "Pods-ZKTwitterBarAnimation_Tests" */;
+			buildPhases = (
+				6DAE3EBBC1505303F39B3FD38057B21A /* Sources */,
+				3374ACE7910FC5F9F837E76555238027 /* Frameworks */,
+				E1B1F019746456F49EA8C5F0C758BD7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZKTwitterBarAnimation_Tests";
+			productName = "Pods-ZKTwitterBarAnimation_Tests";
+			productReference = 5CAE7597A4CA319F9CE5B10991A06677 /* Pods_ZKTwitterBarAnimation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1DDE405F2EF684CDFDAEFB9F9C009C4D /* ZKTwitterBarAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4AD2A7C0D0D45B1769DD359E974E6C /* Build configuration list for PBXNativeTarget "ZKTwitterBarAnimation" */;
+			buildPhases = (
+				83C62A13D62A3E4E85EF6B790B9F78F3 /* Sources */,
+				D8046B321A2061978231A19C54BA5E14 /* Frameworks */,
+				8DB220612AAC9591BC110D36D3E6748E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKTwitterBarAnimation;
+			productName = ZKTwitterBarAnimation;
+			productReference = 88F12E0AEAB451D85F97DC09A95F1152 /* ZKTwitterBarAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6C0E0674E0FEED8C2D42BD20A7D4E28 /* Pods-ZKTwitterBarAnimation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4C4F49A845462AF300BBD61024506D /* Build configuration list for PBXNativeTarget "Pods-ZKTwitterBarAnimation_Example" */;
+			buildPhases = (
+				51971959DA0772A6AC306CF607AD132B /* Sources */,
+				08E3D09F9EB7261B94D8415BEDEC4743 /* Frameworks */,
+				2418D6E6BE15A38DE880EB6E4E91E75F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208807051CA4F5929FE59E40B72136B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZKTwitterBarAnimation_Example";
+			productName = "Pods-ZKTwitterBarAnimation_Example";
+			productReference = 15F067D066288B340920325FE3160206 /* Pods_ZKTwitterBarAnimation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 93BCAB0F38A0789B2A2CDC8C6F772FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C0E0674E0FEED8C2D42BD20A7D4E28 /* Pods-ZKTwitterBarAnimation_Example */,
+				0C02576E46FB2A774127F04A9B969D77 /* Pods-ZKTwitterBarAnimation_Tests */,
+				1DDE405F2EF684CDFDAEFB9F9C009C4D /* ZKTwitterBarAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51971959DA0772A6AC306CF607AD132B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DC160353874AB7ECC2C8D4BFF94C65 /* Pods-ZKTwitterBarAnimation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAE3EBBC1505303F39B3FD38057B21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CABBE8E25DDB9DD60AD42AAF2297F17 /* Pods-ZKTwitterBarAnimation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C62A13D62A3E4E85EF6B790B9F78F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3B39F4913CEDBE3928170B71C84B45 /* ZKAlertType.swift in Sources */,
+				AD452EF28DC85B2E93555148BBF6739F /* ZKAlertView.swift in Sources */,
+				4E2B60FAC0056FE70C5BEF6068066470 /* ZKTabBarController.swift in Sources */,
+				5DFE248FBE7B297929902FBF5163BD8C /* ZKTwitterBarAnimation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		208807051CA4F5929FE59E40B72136B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKTwitterBarAnimation;
+			target = 1DDE405F2EF684CDFDAEFB9F9C009C4D /* ZKTwitterBarAnimation */;
+			targetProxy = E790E47B01241C0CBD15C11BA7018914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EE3EF6ED53D53AD60A50B6DFB48382A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EC92AB9A81EB6B77410A911B5A71D5 /* ZKTwitterBarAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZKTwitterBarAnimation/ZKTwitterBarAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKTwitterBarAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKTwitterBarAnimation/ZKTwitterBarAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZKTwitterBarAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FE10C919517E0A6AD39E3AD125CC8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE67C09CA8251AA674B9F8135111A5B2 /* Pods-ZKTwitterBarAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKTwitterBarAnimation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKTwitterBarAnimation_Tests/Pods-ZKTwitterBarAnimation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZKTwitterBarAnimation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ECF52F2882A2C3DCF1B71BADE7C3A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EC92AB9A81EB6B77410A911B5A71D5 /* ZKTwitterBarAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZKTwitterBarAnimation/ZKTwitterBarAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKTwitterBarAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKTwitterBarAnimation/ZKTwitterBarAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZKTwitterBarAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827CE8CC81BACC12570FCD677FA23EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57572F20402FA4517C24A2677CA9B077 /* Pods-ZKTwitterBarAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKTwitterBarAnimation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKTwitterBarAnimation_Example/Pods-ZKTwitterBarAnimation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZKTwitterBarAnimation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94E59240731EDDE65CFAFF372B7ECDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215A2239D1888060B66476C443329992 /* Pods-ZKTwitterBarAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKTwitterBarAnimation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKTwitterBarAnimation_Tests/Pods-ZKTwitterBarAnimation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZKTwitterBarAnimation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC7E858BFBCB6866093A3BB49A7C5FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E80A7DC60650729125AC479EEE7D19 /* Pods-ZKTwitterBarAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKTwitterBarAnimation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKTwitterBarAnimation_Example/Pods-ZKTwitterBarAnimation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZKTwitterBarAnimation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807CFD8B10CB968AC0552EA3A52B74A1 /* Build configuration list for PBXNativeTarget "Pods-ZKTwitterBarAnimation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E59240731EDDE65CFAFF372B7ECDF4 /* Debug */,
+				4FE10C919517E0A6AD39E3AD125CC8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4AD2A7C0D0D45B1769DD359E974E6C /* Build configuration list for PBXNativeTarget "ZKTwitterBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE3EF6ED53D53AD60A50B6DFB48382A /* Debug */,
+				5ECF52F2882A2C3DCF1B71BADE7C3A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4C4F49A845462AF300BBD61024506D /* Build configuration list for PBXNativeTarget "Pods-ZKTwitterBarAnimation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827CE8CC81BACC12570FCD677FA23EF0 /* Debug */,
+				EC7E858BFBCB6866093A3BB49A7C5FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

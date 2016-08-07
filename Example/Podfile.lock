@@ -1,0 +1,16 @@
+PODS:
+  - ZKTwitterBarAnimation (0.0.1)
+
+DEPENDENCIES:
+  - ZKTwitterBarAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  ZKTwitterBarAnimation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZKTwitterBarAnimation: c53096f0fc1a9e5f47b34ff0e0f6c49e6c3da93e
+
+PODFILE CHECKSUM: 2eb8485e407fc5e06cb5cd13f2256bcd7ab200a5
+
+COCOAPODS: 1.0.1
